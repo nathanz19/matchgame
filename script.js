@@ -3,5 +3,7 @@ function initialize(){
 }
 
 function randomizeImages(){
-  for (let i = 0; )
+  for (let i = 0;  ){
+    
+  }
 }
