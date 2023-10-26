@@ -1,4 +1,91 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-image: url(realistic-background-futuristic-style_23-2149129125.png);
+  background-size: 100%;
+  text-align: center;
+
+}
+
+main {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #9bb7ed;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #4963ca;
+  margin: 10px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#directions {
+  font-family: Garamond, serif;
+  font-weight: bold;
+}
+
+
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+  border-style: solid;
+}
+
+@media (min-width: 1025px) {
+  #div1,
+  #div2,
+  #div3,
+  #div4,
+  #div5,
+  #div6,
+  #div7,
+  #div8,
+  #div9,
+  #div10,
+  #div11,
+  #div12,
+  #div13,
+  #div14,
+  #div15,
+  #div16 {
+    margin: 20px;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  #div1,
+  #div2,
+  #div3,
+  #div4,
+  #div5,
+  #div6,
+  #div7,
+  #div8,
+  #div9,
+  #div10,
+  #div11,
+  #div12,
+  #div13,
+  #div14,
+  #div15,
+  #div16 {
+    margin: 10px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
 }
