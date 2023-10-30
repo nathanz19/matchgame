@@ -1,7 +1,7 @@
 let randomizedImages = assignRandomNumbers();
 let images = document.querySelectorAll("img");
 let totalNumberOfClicks = 0;
-let tempImageID = "";
+let tempImageID = ""
 
 function initialize() {
   assignImages();
@@ -24,7 +24,10 @@ function assignRandomNumbers() {
 
 function assignImages() {
   for (let i = 0; i < images.length; i++) {
-    images[i].src = `${randomizedImages[i]}.png`;
+    // images[i].src = `${randomizedImages[i]}.png`;
+    
+    images[i].src = `0.png` //changed every image to image 0
+    //we need to create smth that can assign each image to a value number, then if it matches it will reveal it and stay revealed.
     images[i].addEventListener("click", revealImage);
   }
 }

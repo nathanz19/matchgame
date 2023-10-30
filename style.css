@@ -41,7 +41,7 @@ h1 {
   border-style: solid;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
   #div1,
   #div2,
   #div3,
@@ -61,11 +61,11 @@ h1 {
     margin: 20px;
   }
   img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 }
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1199px) {
   #div1,
   #div2,
   #div3,
@@ -87,5 +87,29 @@ h1 {
   img {
     width: 100px;
     height: 100px;
+  }
+}
+@media (max-width: 600px) {
+  #div1,
+  #div2,
+  #div3,
+  #div4,
+  #div5,
+  #div6,
+  #div7,
+  #div8,
+  #div9,
+  #div10,
+  #div11,
+  #div12,
+  #div13,
+  #div14,
+  #div15,
+  #div16 {
+    margin: 10px;
+  }
+  img {
+    width: 50px;
+    height: 50px;
   }
 }
