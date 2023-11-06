@@ -32,6 +32,10 @@ h1 {
   font-weight: bold;
 }
 
+#score {
+  font-family: Garamond, serif;
+  font-weight: bold;
+}
 
 
 .gameBoard {
