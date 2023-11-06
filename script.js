@@ -85,6 +85,26 @@ function revealImage(event) {
   }
 }
 
+const reset = document.getElementById("reset");
+reset.addEventListener("click", resetGame);
+function resetGame() {
+  console.log("reset");
+  for (let i = 0; i < images.length; i++) {
+    images[i].src = "0.png";
+    images[i].setAttribute("data-id", i);
+  }
+  randomizedImages = assignRandomNumbers();
+  images = document.querySelectorAll("img");
+  totalNumberOfClicks = 0;
+  tempImageID = "";
+  clickable = 0;
+  firstImageId = "";
+  secondImageId = "";
+  firstImage = "";
+  score.innerHTML = `Number of Clicks: ${totalNumberOfClicks}`;
+  winNum = 0;
+}
+
 
 // function assignImages() {
 //   for (let i = 0; i < images.length; i++) {
